@@ -5,7 +5,7 @@ const About = () => {
         <>
             <h1>About this App</h1>
             <p className='my-1'>
-                This is a full stack React App for keeping your contacts
+                This is a small full stack React App for keeping your contacts
             </p>
             <p className="bg-dark">
                 <strong className='text-white'>Version: 1.0.0</strong>
