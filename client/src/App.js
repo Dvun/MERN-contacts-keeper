@@ -16,9 +16,9 @@ const App = () => {
             <Container>
                 <Alerts />
                 <Switch>
-                    <Route exact path='/' component={Home}/>
+                    <Route exact path='/home' component={Home}/>
                     <Route path='/auth' component={Authorization}/>
-                    <Route path='/about' component={About}/>
+                    <Route path='/' component={About}/>
                 </Switch>
             </Container>
         </BrowserRouter>
