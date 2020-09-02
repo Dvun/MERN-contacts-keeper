@@ -21,7 +21,7 @@ const Authorization = ({location}) => {
 
     useEffect(() => {
         if (isAuth) {
-            history.push('/')
+            history.push('/home')
         }
         if (error !== null && error !== undefined) {
             dispatch(setAlert(error, 'danger'))
