@@ -1,4 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://admin:admin@contactkeeper.ukhmt.mongodb.net/ContactKeeper",
+  "mongoURI": "",
   "secretKey": "some-hard-secret-key"
 }
